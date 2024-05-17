@@ -7,7 +7,7 @@
 
         public string ProgramDescription { get; set; } = "";
 
-        public PersonalInfoField PersonalInformationField { get; set;  }// = new PersonalInfoField();
+        public PersonalInfoField PersonalInfoField { get; set;}         
 
         public List<Question> Questions { get; set; } = new List<Question>();
     }

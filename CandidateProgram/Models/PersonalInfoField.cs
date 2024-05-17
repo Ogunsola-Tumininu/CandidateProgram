@@ -18,7 +18,7 @@ namespace CandidateProgram.Models
         public string CurrentResidence { get; set; } = "";
 
         public string IDNumber { get; set; } = "";
-        public DateTime DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; } = new DateTime();
         public string Gender { get; set; } = "";
 
 
